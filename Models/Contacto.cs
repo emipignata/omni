@@ -21,4 +21,6 @@ namespace Omnicanal.Models
         public List<Mensaje> Mensajes { get; set; }
 
         [Display(Name = "Estado abierto")]
-        public bool Estado
+        public bool Estado;
+    }
+}

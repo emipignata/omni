@@ -10,4 +10,6 @@ namespace Omnicanal.Models
         [MinLength(2, ErrorMessage = "{0} debe tener un mínimo de {1} caracteres")]
         [RegularExpression(@"[a-zA-Z0-9]*", ErrorMessage = "El campo {0} sólo admite caracteres alfanuméricos")]
         [Display(Name = "Nombre de usuario")]
-        public string NombreUsuario
+        public string NombreUsuario;
+    }
+}

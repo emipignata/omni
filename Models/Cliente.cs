@@ -7,4 +7,3 @@ namespace Omnicanal.Models
         public override Rol Rol => Rol.Cliente;
     }
 }
-}
