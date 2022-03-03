@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Omnicanal.Models.Enums;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Omnicanal.Models
@@ -11,5 +12,10 @@ namespace Omnicanal.Models
         [RegularExpression(@"[a-zA-Z0-9]*", ErrorMessage = "El campo {0} sólo admite caracteres alfanuméricos")]
         [Display(Name = "Nombre de usuario")]
         public string NombreUsuario;
+
+        [ScaffoldColumn(false)]
+        public byte[] Password { get; set; }
+
+        public override Rol Rol => Rol.Asesor;
     }
 }

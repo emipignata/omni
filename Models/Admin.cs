@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Omnicanal.Models.Enums;
+using System;
 namespace Omnicanal.Models
 {
     public class Admin : Usuario
