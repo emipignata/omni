@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Omnicanal.Models.Enums;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Omnicanal.Models
 {
     public class Asesor : Usuario
+    
     {
         [Required(ErrorMessage = "El campo {0} es requerido")]
         [MaxLength(100, ErrorMessage = "{0} admite un máximo de {1} caracteres")]
@@ -11,5 +13,6 @@ namespace Omnicanal.Models
         [RegularExpression(@"[a-zA-Z0-9]*", ErrorMessage = "El campo {0} sólo admite caracteres alfanuméricos")]
         [Display(Name = "Nombre de usuario")]
         public string NombreUsuario;
-    }
+        public override Rol Rol => Rol.Admin;
+}
 }
