@@ -13,6 +13,15 @@ namespace Omnicanal.Models
         [RegularExpression(@"[a-zA-Z0-9]*", ErrorMessage = "El campo {0} sólo admite caracteres alfanuméricos")]
         [Display(Name = "Nombre de usuario")]
         public string NombreUsuario;
-        public override Rol Rol => Rol.Admin;
+
+        
 }
+
+
+        [ScaffoldColumn(false)]
+        public byte[] Password { get; set; }
+
+        public override Rol Rol => Rol.Asesor;
+    }
+
 }
