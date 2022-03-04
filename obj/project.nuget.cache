@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3q6O2dw15fZwc34MHQlhaK8K7WXgjivHbD8muGElIHOk1lo20SFUFQiTB3sRbr6sHSTy0cGB/Uxs17fGnnT4ow==",
+  "dgSpecHash": "lVeOAOJePX4NCqbp91NBWzBApxkgozSxva50YkzBMHlOnBLehrUhiNHl0U98n8yL3gFI+FFFZL1oE0aLS2m/ZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Omnicanal\\Omnicanal\\Omnicanal.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\desktop\\omnicanal\\omnicanal\\Omnicanal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

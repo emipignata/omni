@@ -16,7 +16,5 @@ namespace Omnicanal.Database
         public DbSet<Contacto> Contactos { get; set; }
         public DbSet<Mensaje> Mensajes { get; set; }
 
-      //  public DbSet<Models.Enums.Canal> Canales { get; set; }
-      // porquee no estan los Roles?????????????
     }
 }
