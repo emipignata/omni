@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\desktop\\omnicanal\\omnicanal\\Omnicanal.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Omnicanal\\Omnicanal\\Omnicanal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\desktop\\omnicanal\\omnicanal\\Omnicanal.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Omnicanal\\Omnicanal\\Omnicanal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\desktop\\omnicanal\\omnicanal\\Omnicanal.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Omnicanal\\Omnicanal\\Omnicanal.csproj",
         "projectName": "Omnicanal",
-        "projectPath": "C:\\Users\\Admin\\desktop\\omnicanal\\omnicanal\\Omnicanal.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Omnicanal\\Omnicanal\\Omnicanal.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\desktop\\omnicanal\\omnicanal\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Omnicanal\\Omnicanal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
